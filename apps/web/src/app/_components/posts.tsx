@@ -5,12 +5,12 @@ import { CreatePostSchema } from "@panfo/db/schema";
 import { cn } from "@panfo/ui";
 import { Button } from "@panfo/ui/button";
 import {
-    Form,
-    FormControl,
-    FormField,
-    FormItem,
-    FormMessage,
-    useForm,
+  Form,
+  FormControl,
+  FormField,
+  FormItem,
+  FormMessage,
+  useForm,
 } from "@panfo/ui/form";
 import { Input } from "@panfo/ui/input";
 import { toast } from "@panfo/ui/toast";

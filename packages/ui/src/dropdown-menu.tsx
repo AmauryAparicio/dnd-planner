@@ -1,12 +1,12 @@
 "use client";
 
+import * as React from "react";
 import * as DropdownMenuPrimitive from "@radix-ui/react-dropdown-menu";
 import {
-    CheckIcon,
-    ChevronRightIcon,
-    DotFilledIcon,
+  CheckIcon,
+  ChevronRightIcon,
+  DotFilledIcon,
 } from "@radix-ui/react-icons";
-import * as React from "react";
 
 import { cn } from "@panfo/ui";
 
@@ -182,9 +182,19 @@ const DropdownMenuShortcut = ({
 DropdownMenuShortcut.displayName = "DropdownMenuShortcut";
 
 export {
-    DropdownMenu, DropdownMenuCheckboxItem, DropdownMenuContent, DropdownMenuGroup, DropdownMenuItem, DropdownMenuLabel, DropdownMenuPortal, DropdownMenuRadioGroup, DropdownMenuRadioItem, DropdownMenuSeparator,
-    DropdownMenuShortcut, DropdownMenuSub,
-    DropdownMenuSubContent,
-    DropdownMenuSubTrigger, DropdownMenuTrigger
+  DropdownMenu,
+  DropdownMenuCheckboxItem,
+  DropdownMenuContent,
+  DropdownMenuGroup,
+  DropdownMenuItem,
+  DropdownMenuLabel,
+  DropdownMenuPortal,
+  DropdownMenuRadioGroup,
+  DropdownMenuRadioItem,
+  DropdownMenuSeparator,
+  DropdownMenuShortcut,
+  DropdownMenuSub,
+  DropdownMenuSubContent,
+  DropdownMenuSubTrigger,
+  DropdownMenuTrigger,
 };
-
