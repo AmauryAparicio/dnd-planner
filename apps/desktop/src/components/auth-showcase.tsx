@@ -1,7 +1,6 @@
-import React from "react";
 
-// import { useSession } from "@acme/auth";
-import { Button } from "@acme/ui/button";
+// import { useSession } from "@panfo/auth";
+import { Button } from "@panfo/ui/button";
 
 import { useSignIn, useSignOut, useUser } from "~/hooks/auth";
 

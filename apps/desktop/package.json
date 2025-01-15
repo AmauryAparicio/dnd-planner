@@ -1,5 +1,5 @@
 {
-  "name": "@acme/desktop",
+  "name": "@panfo/desktop",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -17,9 +17,9 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "@acme/api": "workspace:*",
-    "@acme/auth": "workspace:*",
-    "@acme/ui": "workspace:*",
+    "@panfo/api": "workspace:*",
+    "@panfo/auth": "workspace:*",
+    "@panfo/ui": "workspace:*",
     "@tanstack/react-query": "^5.51.21",
     "@tanstack/react-router": "^1.46.7",
     "@tanstack/router-devtools": "^1.46.7",
@@ -35,11 +35,11 @@
     "superjson": "2.2.1"
   },
   "devDependencies": {
-    "@acme/db": "workspace:*",
-    "@acme/eslint-config": "workspace:*",
-    "@acme/prettier-config": "workspace:*",
-    "@acme/tailwind-config": "workspace:*",
-    "@acme/tsconfig": "workspace:*",
+    "@panfo/db": "workspace:*",
+    "@panfo/eslint-config": "workspace:*",
+    "@panfo/prettier-config": "workspace:*",
+    "@panfo/tailwind-config": "workspace:*",
+    "@panfo/tsconfig": "workspace:*",
     "@tanstack/router-cli": "^1.45.13",
     "@tanstack/router-plugin": "^1.46.6",
     "@tauri-apps/cli": "2.0.0-rc.1",
@@ -52,5 +52,5 @@
     "vite": "^5.3.5",
     "vite-tsconfig-paths": "^4.3.2"
   },
-  "prettier": "@acme/prettier-config"
+  "prettier": "@panfo/prettier-config"
 }

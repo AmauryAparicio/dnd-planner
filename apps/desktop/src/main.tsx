@@ -1,14 +1,14 @@
-import React, { StrictMode } from "react";
 import { createRouter, RouterProvider } from "@tanstack/react-router";
+import { StrictMode } from "react";
 import ReactDOM from "react-dom/client";
 
 // Import the generated route tree
 import { routeTree } from "~/routeTree.gen";
 import { TRPCProvider } from "~/trpc";
 
-import "../node_modules/@acme/ui/styles/globals.css"; // Hack for now
+import "../node_modules/@panfo/ui/styles/globals.css"; // Hack for now
 
-import { ThemeProvider } from "@acme/ui/theme";
+import { ThemeProvider } from "@panfo/ui/theme";
 
 // Create a new router instance
 const router = createRouter({ routeTree });

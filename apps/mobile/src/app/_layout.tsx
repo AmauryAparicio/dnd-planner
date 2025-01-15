@@ -6,7 +6,7 @@ import { useColorScheme } from "nativewind";
 
 import { TRPCProvider } from "~/utils/api";
 
-import "@acme/ui/styles/globals.css";
+import "@panfo/ui/styles/globals.css";
 
 // This is the main layout of the app
 // It wraps your pages with the providers they need
@@ -16,7 +16,7 @@ export default function RootLayout() {
     <TRPCProvider>
       {/*
           The Stack component displays the current page.
-          It also allows you to configure your screens 
+          It also allows you to configure your screens
         */}
       <Stack
         screenOptions={{

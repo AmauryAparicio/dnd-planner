@@ -1,19 +1,19 @@
 "use client";
 
-import type { RouterOutputs } from "@acme/api";
-import { CreatePostSchema } from "@acme/db/schema";
-import { cn } from "@acme/ui";
-import { Button } from "@acme/ui/button";
+import type { RouterOutputs } from "@panfo/api";
+import { CreatePostSchema } from "@panfo/db/schema";
+import { cn } from "@panfo/ui";
+import { Button } from "@panfo/ui/button";
 import {
-  Form,
-  FormControl,
-  FormField,
-  FormItem,
-  FormMessage,
-  useForm,
-} from "@acme/ui/form";
-import { Input } from "@acme/ui/input";
-import { toast } from "@acme/ui/toast";
+    Form,
+    FormControl,
+    FormField,
+    FormItem,
+    FormMessage,
+    useForm,
+} from "@panfo/ui/form";
+import { Input } from "@panfo/ui/input";
+import { toast } from "@panfo/ui/toast";
 
 import { api } from "~/trpc";
 
